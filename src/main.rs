@@ -1,8 +1,7 @@
+#![allow(non_snake_case)]
+
 mod calcul;
 use std::env;
-
-#[allow(non_snake_case)]
-fn nonSnakeCase() {}
 
 fn main() {
 	let args: Vec<String> = env::args().collect();

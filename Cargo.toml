@@ -1,6 +1,6 @@
 [package]
 name = "Sph2-rs"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 description = "Une nouvelle version de Sph-rs, qui utilise un module."
 license-file = "LICENSE"
