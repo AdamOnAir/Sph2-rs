@@ -1,3 +1,6 @@
+#[allow(non_snake_case)]
+fn nonSnakeCase() {}
+
 mod calcul;
 use std::env;
 
