@@ -1,0 +1,13 @@
+[package]
+name = "Sph2-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Une nouvelle version de Sph-rs, qui utilise un module."
+license-file = LICENSE
+repository = "https://github.com/FBDev64/Sph2-rs"
+readme = README.md
+homepage = "https://github.com/FBDev64/Sph3-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
