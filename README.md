@@ -1,7 +1,7 @@
 # Sph2-rs
 
-## C'est quoi ?
-Une nouvelle version qui utilise un module pour calculer les valeures.
+## What is it
+A new version of Sph-rs that uses a module.
 
 ## Technical Badges
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
