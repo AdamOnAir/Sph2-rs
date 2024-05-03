@@ -1,6 +1,6 @@
 [package]
 name = "Sph2-rs"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 description = "An improved version of Sph-rs, that uses a mod to calculate the desired values."
 license-file = "LICENSE"
