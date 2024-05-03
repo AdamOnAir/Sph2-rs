@@ -1,12 +1,16 @@
 [package]
 name = "Sph2-rs"
-version = "0.1.5"
+version = "0.1.6"
 edition = "2021"
 description = "An improved version of Sph-rs, that uses a mod to calculate the desired values."
 license-file = "LICENSE"
 repository = "https://github.com/FBDev64/Sph2-rs.git"
 readme = "README.md"
+documentation = "https://github.com/FBDev64/Sph2-rs/tree/super?tab=readme-ov-file#sph2-rs"
 homepage = "https://github.com/FBDev64/Sph2-rs"
+categories = ["algorithms", "mathematics", "science"]
+keywords = ["math"]
+authors = ["Adam Ellouze <elzadam11@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
