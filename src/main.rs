@@ -9,14 +9,14 @@ fn main() {
 	let rayon = rayon_str.parse::<f64>().unwrap();
 
 	let p = calcul::perimetre_cercle(rayon);
-	println!(">>> Le périmètre su cercle est de : {}", p);
+        println!(">>> The perimeter of the circle is : {}", p);
 
 	let s = calcul::surface_cercle(rayon);
-	println!(">>> La surface du cercle est de : {}", s);
+	println!(">>> The area of the circle is : {}", s);
 
 	let s_sph = calcul::surface_sphere(rayon);
-	println!(">>> La surface de la sphère est de : {}", s_sph);
+	println!(">>> The surface area of the sphere is : {}", s_sph);
 
 	let v_sph = calcul::volume_sphere(rayon);
-	println!(">>> Le volume de la sphère est de : {}", v_sph);
+	println!(">>> Le volume of the sphere is : {}", v_sph);
 }
