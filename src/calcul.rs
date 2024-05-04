@@ -29,7 +29,7 @@ pub fn volume_sphere(rayon: f64) -> f64 {
 pub fn diametre(rayon: f64) -> f64 {
 	assert!(rayon >= 0.0);
 
-	let diametre = rayon * 2;
+	let diametre = rayon * 2.0;
 	diametre
 }
 
