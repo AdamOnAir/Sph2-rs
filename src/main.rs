@@ -7,6 +7,9 @@ fn main() {
 	let args: Vec<String> = env::args().collect();
 	let rayon_str = &args[1];
 	let rayon = rayon_str.parse::<f64>().unwrap();
+	
+	let d = calcul::diametre(rayon);
+		println!(">>> The diameter of the circle is : {}", d);
 
 	let p = calcul::perimetre_cercle(rayon);
         println!(">>> The perimeter of the circle is : {}", p);

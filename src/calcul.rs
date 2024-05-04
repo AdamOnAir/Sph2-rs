@@ -26,6 +26,13 @@ pub fn volume_sphere(rayon: f64) -> f64 {
 	volume_sph
 }
 
+pub fn diametre(rayon: f64) -> f64 {
+	assert!(rayon >= 0.0);
+
+	let diametre = rayon * 2;
+	diametre
+}
+
 #[test]
 fn test_volume_sphere() {
 	let resultat = volume_sphere(5.0);
