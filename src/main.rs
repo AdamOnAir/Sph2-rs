@@ -9,7 +9,7 @@ fn main() {
 	let rayon = rayon_str.parse::<f64>().unwrap();
 	
 	let d = calcul::diametre(rayon);
-		println!(">>> The diameter of the circle is : {}", d);
+	println!(">>> The diameter of the circle is : {}", d);
 
 	let p = calcul::perimetre_cercle(rayon);
         println!(">>> The perimeter of the circle is : {}", p);
